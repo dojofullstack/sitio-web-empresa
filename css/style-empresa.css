@@ -1,0 +1,25 @@
+
+.efect-move {
+    transition: transform 1s ease;
+    position: relative;
+}
+.efect-move:hover {
+    /* transform: translateX(10px); */
+    transition: all 1s ease;
+    animation: movimiento 2s;
+}
+
+
+@keyframes movimiento {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 20px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
